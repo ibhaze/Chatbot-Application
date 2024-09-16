@@ -23,7 +23,7 @@ class FeatureBox extends StatelessWidget {
         ),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical:20.0).copyWith(
+        padding: const EdgeInsets.symmetric(vertical:10.0).copyWith(
           left: 15,
         ),
         child: Column(
@@ -35,7 +35,7 @@ class FeatureBox extends StatelessWidget {
                 style: const TextStyle(
                 fontFamily:'Chivo' ,
                 color: Pallete.whiteColor,
-                fontSize: 18,
+                fontSize: 18.5,
                 fontWeight: FontWeight.bold,
               ),
               ),
